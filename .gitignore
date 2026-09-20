@@ -1,0 +1,40 @@
+#env
+.env
+.env.*
+!.env.example
+
+# DATABASE
+*.db
+*.sqlite
+*.sqlite3
+student_app.db
+
+# VIRTUAL ENVIRONMENTS
+venv/
+.venv/
+env/
+
+# PYTHON & FASTAPI CACHE
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# TESTING & COVERAGE
+
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# IDE & OS FILES
+
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# LOGS
+
+*.log
